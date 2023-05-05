@@ -3,7 +3,7 @@ const menu = [
         id: 1,
         title: "buttermilk pancakes",
         price: 15.99,
-        category:"breakfast",
+        category:"fries",
         img: "./images/item-1.jpeg",
         desc: `I'm baby woke milkshake wolf bitters live-edge 
         blue bottle, hammok freegan copper mug whatever cold pressed`,
@@ -12,7 +12,7 @@ const menu = [
         id: 2,
         title: "buttermilk pancakes2",
         price: 15.99,
-        category:"lunch",
+        category:"Burguer",
         img: "./images/item-2.jpg",
         desc: `I'm baby woke milkshake wolf bitters live-edge 
         blue bottle, hammok freegan copper mug whatever cold pressed`,
@@ -21,7 +21,7 @@ const menu = [
         id: 3,
         title: "buttermilk pancakes3",
         price: 15.99,
-        category:"shakes",
+        category:"Burguer",
         img: "/images/item-3.jpg",
         desc: `I'm baby woke milkshake wolf bitters live-edge 
         blue bottle, hammok freegan copper mug whatever cold pressed`,
@@ -30,15 +30,15 @@ const menu = [
         id: 4,
         title: "buttermilk pancakes4",
         price: 15.99,
-        category:"breakfast",
-        img: "/images/item-4.jpg",
+        category:"Burguer",
+        img: "/images/item-4.webp",
         desc: `I'm baby woke milkshake wolf bitters live-edge 
         blue bottle, hammok freegan copper mug whatever cold pressed`,
     },
     {
         id: 5,
         title: "buttermilk pancakes5",
-        category:"breakfast",
+        category:"Combos",
         price: 15.99,
         img: "/images/item-5.jpg",
         desc: `I'm baby woke milkshake wolf bitters live-edge 
@@ -46,8 +46,8 @@ const menu = [
     },
     {
         id: 6,
-        title: "steak",
-        category:"steak",
+        title: "steak teste",
+        category:"Combos",
         price: 39.99,
         img: "/images/item-6.jpg",
         desc: `I'm baby woke milkshake wolf bitters live-edge 
@@ -56,7 +56,7 @@ const menu = [
     {
         id: 7,
         title: "steak",
-        category:"steak",
+        category:"Pizza",
         price: 39.99,
         img: "/images/item-7.jpg",
         desc: `I'm baby woke milkshake wolf bitters live-edge 
@@ -65,7 +65,7 @@ const menu = [
     {
         id: 8,
         title: "steak",
-        category:"steak",
+        category:"Pizza",
         price: 39.99,
         img: "/images/item-8.jpg",
         desc: `I'm baby woke milkshake wolf bitters live-edge 
@@ -73,19 +73,19 @@ const menu = [
     },
     {
         id: 9,
-        title: "steak",
-        category:"steak",
+        title: "Strawberry Milk Shake",
+        category:"shakes",
         price: 39.99,
-        img: "/images/item-9.jpg",
+        img: "/images/item-9.jpeg",
         desc: `I'm baby woke milkshake wolf bitters live-edge 
         blue bottle, hammok freegan copper mug whatever cold pressed`,
     },
     {
         id: 10,
-        title: "steak",
-        category:"steak",
+        title: "Chocolate Milk Shake",
+        category:"shakes",
         price: 39.99,
-        img: "/images/item-10.jpg",
+        img: "/images/item-10.webp",
         desc: `I'm baby woke milkshake wolf bitters live-edge 
         blue bottle, hammok freegan copper mug whatever cold pressed`,
     },
