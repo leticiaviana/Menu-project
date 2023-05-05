@@ -4,7 +4,7 @@ const menu = [
         title: "buttermilk pancakes",
         price: 15.99,
         category:"breakfast",
-        img: "",
+        img: "./images/item-1.jpeg",
         desc: `I'm baby woke milkshake wolf bitters live-edge 
         blue bottle, hammok freegan copper mug whatever cold pressed`,
     },  
@@ -13,7 +13,7 @@ const menu = [
         title: "buttermilk pancakes2",
         price: 15.99,
         category:"lunch",
-        img: "",
+        img: "./images/item-2.jpg",
         desc: `I'm baby woke milkshake wolf bitters live-edge 
         blue bottle, hammok freegan copper mug whatever cold pressed`,
     },  
@@ -22,7 +22,7 @@ const menu = [
         title: "buttermilk pancakes3",
         price: 15.99,
         category:"shakes",
-        img: "",
+        img: "/images/item-3.jpg",
         desc: `I'm baby woke milkshake wolf bitters live-edge 
         blue bottle, hammok freegan copper mug whatever cold pressed`,
     },
@@ -31,7 +31,7 @@ const menu = [
         title: "buttermilk pancakes4",
         price: 15.99,
         category:"breakfast",
-        img: "",
+        img: "/images/item-4.jpg",
         desc: `I'm baby woke milkshake wolf bitters live-edge 
         blue bottle, hammok freegan copper mug whatever cold pressed`,
     },
@@ -40,7 +40,7 @@ const menu = [
         title: "buttermilk pancakes5",
         category:"breakfast",
         price: 15.99,
-        img: "",
+        img: "/images/item-5.jpg",
         desc: `I'm baby woke milkshake wolf bitters live-edge 
         blue bottle, hammok freegan copper mug whatever cold pressed`,
     },
@@ -49,7 +49,43 @@ const menu = [
         title: "steak",
         category:"steak",
         price: 39.99,
-        img: "",
+        img: "/images/item-6.jpg",
+        desc: `I'm baby woke milkshake wolf bitters live-edge 
+        blue bottle, hammok freegan copper mug whatever cold pressed`,
+    },
+    {
+        id: 7,
+        title: "steak",
+        category:"steak",
+        price: 39.99,
+        img: "/images/item-7.jpg",
+        desc: `I'm baby woke milkshake wolf bitters live-edge 
+        blue bottle, hammok freegan copper mug whatever cold pressed`,
+    },
+    {
+        id: 8,
+        title: "steak",
+        category:"steak",
+        price: 39.99,
+        img: "/images/item-8.jpg",
+        desc: `I'm baby woke milkshake wolf bitters live-edge 
+        blue bottle, hammok freegan copper mug whatever cold pressed`,
+    },
+    {
+        id: 9,
+        title: "steak",
+        category:"steak",
+        price: 39.99,
+        img: "/images/item-9.jpg",
+        desc: `I'm baby woke milkshake wolf bitters live-edge 
+        blue bottle, hammok freegan copper mug whatever cold pressed`,
+    },
+    {
+        id: 10,
+        title: "steak",
+        category:"steak",
+        price: 39.99,
+        img: "/images/item-10.jpg",
         desc: `I'm baby woke milkshake wolf bitters live-edge 
         blue bottle, hammok freegan copper mug whatever cold pressed`,
     },
@@ -68,7 +104,7 @@ window.addEventListener('DOMContentLoaded', function(){
 function displayMenuItems(menuItems){
     let displayMenu = menuItems.map(function(item){
         return `<article class="menu-item">
-        <img src="${item.img}" class="phtoto" alt="${item.title}">
+        <img src="${item.img}" class="photo" alt="${item.title}">
         <div class=" ">
             <header>
                 <h4>${item.title}</h4>
