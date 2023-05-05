@@ -67,7 +67,6 @@ window.addEventListener('DOMContentLoaded', function(){
 
 function displayMenuItems(menuItems){
     let displayMenu = menuItems.map(function(item){
-        // console.log(item);
         return `<article class="menu-item">
         <img src="${item.img}" class="phtoto" alt="${item.title}">
         <div class=" ">
@@ -96,7 +95,6 @@ function displayMenuButtons(){
     const categoryBtns = categories.map((category) =>{
         return `<button class="filter-btn" type="button" data-id=${category}>${category}</button>`
     }).join("");
-    console.log(categoryBtns);
     container.innerHTML = categoryBtns;
     const filterBtns = document.querySelectorAll('.filter-btn');
 
@@ -105,7 +103,6 @@ function displayMenuButtons(){
         btn.addEventListener("click",function(e){
             const category = e.currentTarget.dataset.id;
             const menuCategory = menu.filter(function(menuItem){
-                // console.log(menuItem.category);
                 if(menuItem.category === category){
                     return menuItem;
                 }
